@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  background: blue;
+  color: white;
+  padding: 0.8rem 2rem;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background: aqua;
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
