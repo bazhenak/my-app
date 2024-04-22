@@ -3,6 +3,7 @@ import "./App.css";
 import React from "react";
 
 function handleClick() {
+    const data = document.getElementById("form").value
     document.getElementById("form").reset;
     console.log('button clicked')
 
